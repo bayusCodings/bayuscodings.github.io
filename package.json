@@ -21,6 +21,7 @@
   ],
   "author": "Ogunbayo Abayomi",
   "license": "ISC",
+  "packageManager": "pnpm@9.12.3",
   "devDependencies": {
     "astro": "^4.11.5",
     "astro-icon": "^1.1.0",
