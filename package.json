@@ -1,0 +1,33 @@
+{
+  "name": "bayo.dev",
+  "version": "4.0.0",
+  "description": "Ogunbayo Abayomi",
+  "scripts": {
+    "dev": "astro dev",
+    "start": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview"
+  },
+  "keywords": [
+    "Ogunbayo",
+    "Abayomi",
+    "Software Engineer",
+    "Backend",
+    "Database",
+    "JavaScript",
+    "Performance",
+    "Engineering",
+    "Best practices"
+  ],
+  "author": "Ogunbayo Abayomi",
+  "license": "ISC",
+  "devDependencies": {
+    "astro": "^4.11.5",
+    "astro-icon": "^1.1.0",
+    "breakpoint-sass": "^3.0.0",
+    "sass": "^1.66.1"
+  },
+  "dependencies": {
+    "figlet": "^1.6.0"
+  }
+}

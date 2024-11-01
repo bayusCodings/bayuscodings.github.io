@@ -1,0 +1,94 @@
+---
+import "../assets/css/style.scss";
+import { Icon } from "astro-icon/components";
+import { ViewTransitions } from "astro:transitions";
+---
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="preconnect"
+      href="https://www.googletagmanager.com"
+      crossorigin
+    />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Software Engineer 👨🏾‍💻, specializing in Backend Development."
+    />
+    <meta
+      name="keywords"
+      content="JavaScript, Typescript, Nodejs, Golang, Java, REST, gRPC, SQL, NoSQL, GraphQL, RabbitMQ, GCP"
+    />
+    <meta name="author" content="Ogunbayo Abayomi" />
+    <meta name="msapplication-TileColor" content="#da532c" />
+    <meta name="theme-color" content="#ffffff" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+    <link rel="manifest" href="/site.webmanifest" />
+    <title>bayuscodings site</title>
+    <!-- <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;400;900&display=swap" rel="stylesheet"> -->
+    <!-- <script defer src="https://www.googletagmanager.com/gtag/js?id=G-ECS101WP4Z"></script> -->
+    <!-- <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+
+    gtag('config', 'G-ECS101WP4Z');
+  </script> -->
+    <ViewTransitions />
+  </head>
+
+  <body>
+    <nav class="nav">
+      <a class="emoji-icon" href="/">👨🏾‍</a>
+      <ul class="social-icons">
+        <li>
+          <a
+            href="https://github.com/bayusCodings"
+            rel="noopener"
+            target="_blank"
+            aria-label="Github"
+          >
+            <Icon name="github" height={20} width={20} />
+          </a>
+        </li>
+        <li>
+          <a
+            href="https://twitter.com/bayo_soft"
+            rel="noopener"
+            target="_blank"
+            aria-label="Twitter"
+          >
+            <Icon name="twitter" height={20} width={20} />
+          </a>
+        </li>
+        <li>
+          <a
+            href="https://www.linkedin.com/in/abayomi-ogunbayo-31570b164"
+            rel="noopener"
+            target="_blank"
+            aria-label="LinkedIn"
+          >
+            <Icon name="linkedin" height={20} width={20} />
+          </a>
+        </li>
+      </ul>
+    </nav>
+    <slot />
+    <a
+      href="mailto:ogunbayo.abayo@gmail.com&subject=Hey%20Abayomi"
+      class="email">ogunbayo.abayo@gmail.com</a
+    >
+    <footer class="center">&copy; 2024 Ogunbayo.</footer>
+    <script>
+      import "../assets/js/main.js";
+    </script>
+  </body>
+</html>
